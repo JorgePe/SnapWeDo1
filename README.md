@@ -81,4 +81,18 @@ Then import SnapWeDo1.xml containing block definitions for motor and sensors.
 Then from a browser launch Snap! by navigating to the runtime URL:
 http://snap.berkeley.edu/snapsource/snap.html
 
-Then use the menu option 'Import...' and specify the 'SnapWeDo1.xml' file, it contains 3 custom blocks (motor, tilt sensor and distance sensor).
+Then use the menu option 'Import...' and specify the 'SnapWeDo1.xml' file, it contains 3 new custom blocks:
+- In 'motion' a 'move motor' block
+- In 'sensing' a 'read dist' and a 'read tilt' blocks
+
+You now need to specify the IP Address of your Raspberry Pi to use it.
+
+# Example
+
+Connect a distance sensor on port A and a motor on port B then try this example to make the motor rotate when an object is detected at less than 15 cm of the distance sensor:
+
+![](https://github.com/JorgePe/SnapWeDo1/blob/master/images/example01.png)
+
+This is the expected result:
+https://youtu.be/KnzAiFDyu7c
+
