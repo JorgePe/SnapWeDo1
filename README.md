@@ -1,9 +1,10 @@
 # SnapWeDo1
 This is a WeDo 1.0 extension for [Snap!](http://snap.berkeley.edu/)
 
-It is based on Connor Hudson (aka technoboy10) [snap-server](https://github.com/technoboy10/snap-server).
+It is based on Connor Hudson (AKA technoboy10) [snap-server](https://github.com/technoboy10/snap-server).
 
-I just converted it to python3 and added the WeDo 1.0 methods from [WeDoMore](https://github.com/itdaniher/WeDoMore) library.
+I just converted it to python3 and added the WeDo 1.0 methods from 
+Ian Daniher (AKA itdaniher) [WeDoMore](https://github.com/itdaniher/WeDoMore) library.
 
 It still needs some cleaning and improvements but it already works on my Ubuntu laptop and my Raspbery Pi Zero W.
 
